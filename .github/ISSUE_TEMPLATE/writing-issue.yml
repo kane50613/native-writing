@@ -1,0 +1,29 @@
+name: Report a writing problem
+description: Flag unnatural wording, incorrect guidance, or a change in meaning.
+body:
+  - type: input
+    id: context
+    attributes:
+      label: Language and writing context
+      placeholder: Taiwan Mandarin, app error message
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: What needs fixing?
+      description: Paste the wording or link to the guidance. For agent output, include the prompt and original text.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What should change?
+      description: Explain what sounds wrong or which meaning was lost. A suggested rewrite or local example helps.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Agent, model, and skill version
+      description: For generated output, include these details if known.
