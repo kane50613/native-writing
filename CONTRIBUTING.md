@@ -1,23 +1,41 @@
 # Contributing
 
-Help agents write clearly for a particular audience. Useful contributions include a language or regional reference, a better original example, or a correction supported by actual usage.
+We welcome contributions for more languages and regional varieties. Add guidance for the language you write in, improve an example, or correct wording that sounds unnatural to you.
 
-## Add a language or region
+## Where to edit
 
-1. Describe the audience and register the reference covers. A writing system alone does not identify a region or community.
-2. Read several unrelated writers in the original language. Match the sources to the intended work: include blogs and documentation for long-form writing, and actual product surfaces for interface copy. Older articles can provide useful baselines. Check revision dates and translated editions.
-3. Record URLs, displayed dates, access methods, and the passages or sections inspected in `references/community-research.md`. Distinguish your observations from the guidance you recommend. Record inaccessible sources as gaps.
-4. Add a focused language reference under `references/`. Explain sentence construction, register, and context-sensitive terminology. Include original examples that preserve facts and examples that should stay unchanged.
-5. Link the reference from `SKILL.md`, update the language table in `README.md`, and add relevant behavioral cases under `evals/`.
+```text
+SKILL.md                       Shared process and links to language guides
+references/
+  languages/
+    en/guide.md                English
+    zh-CN/guide.md             Mainland Simplified Chinese
+    zh-TW/
+      guide.md                 Taiwan Mandarin
+      terminology.md           Taiwan vocabulary
+  formats/                     Rules shared across languages
+    product-copy.md
+    documentation.md
+    blogs.md
+  research/
+    initial-samples.md         Evidence behind the initial guides
+evals/                         Behavioral review cases
+```
 
-Keep shared editing principles in `SKILL.md` and form-specific guidance in the existing form references. A new language normally needs a reference file, not another skill or a duplicate copy of the shared process.
+Language-specific rules belong in that language's folder. Advice that applies to every language belongs in `SKILL.md`; advice about a particular writing format belongs in `references/formats/`.
 
-Use short attributed excerpts only when necessary. Prefer your own summaries and exercises. Public availability does not grant permission to copy whole posts. Do not infer someone's nationality or authorship from the platform they use.
+## Add a language
 
-## Review a change
+1. Create `references/languages/<language-tag>/guide.md`, using a language tag such as `ja`, `fr`, or `pt-BR`. Include a region when the guidance depends on it.
+2. Describe the audience, sentence construction, tone, and local usage. Include original before-and-after examples for messages, product copy, and longer writing, plus a passage that should stay unchanged. Use the existing guides as starting points.
+3. Put supporting sources in `sources.md` beside the guide. Record URLs, dates, access methods, what you observed, and limitations. Sample several unrelated writers. Include older original-language articles where possible, and check for revisions or translated editions.
+4. Add `terminology.md` only if the vocabulary guidance needs a separate file. Link it from the guide and explain when to read it. Keep meanings and exceptions beside each term.
+5. Link the guide from `SKILL.md` and the supported-language list in `README.md`. Add review cases in `evals/<language-tag>.md`, linked from [evals/README.md](evals/README.md).
 
-Check that each local Markdown link resolves and that the skill frontmatter still identifies `native-writing`. Read every changed instruction with its surrounding reference: a vocabulary preference must not alter a quotation, a literal UI label, or a technical meaning.
+Keep each guide self-contained for its audience. Reuse shared process and format references through links. Summarize sources in your own words and distinguish observed usage from your editorial recommendations.
 
-Run the relevant cases in [evals/README.md](evals/README.md) with an agent that can load the skill. Record the agent/model, date, prompt, output, and observed failures in the pull request. Review meaning and usability before stylistic preferences. Mark untested behavior explicitly.
+## Before opening a pull request
 
-A pull request should explain the concrete problem, resulting behavior, supporting evidence, and validation performed. Include a small reproduction when fixing a writing failure. Avoid adding a universal ban to fix a single awkward sentence.
+Check local links and review the examples for lost facts, conditions, or changes in tone. Try the relevant [evaluation cases](evals/README.md) with an agent using the skill; report the model, prompts, outputs, and any untested behavior.
+
+Explain what your change improves and include the supporting examples or sources. Small corrections are welcome too.

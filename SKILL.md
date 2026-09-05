@@ -21,15 +21,15 @@ Write so the reader can follow the thought on the first read. Choose language fo
 
 Choose the reference for the requested output language. For multilingual deliverables, read each language being written:
 
-- [English](references/english.md)
-- [台灣繁中](references/zh-tw.md), including its required Taiwan terminology reference
-- [简体中文](references/zh-cn.md)
+- [English](references/languages/en/guide.md)
+- [台灣繁中](references/languages/zh-TW/guide.md), including its required Taiwan terminology reference
+- [简体中文](references/languages/zh-CN/guide.md)
 
 Form, when applicable:
 
-- [Website and app copy](references/product-copy.md): landing pages, feature and pricing copy, labels, onboarding, errors, and other interface states. Apply while building a product as well as during copy editing.
-- [Documentation](references/documentation.md): README files, tutorials, API references, help articles, specifications, proposals, and internal documents.
-- [Blogs and essays](references/blogs.md): developed arguments, personal essays, technical articles, and newsletters.
+- [Website and app copy](references/formats/product-copy.md): landing pages, feature and pricing copy, labels, onboarding, errors, and other interface states. Apply while building a product as well as during copy editing.
+- [Documentation](references/formats/documentation.md): README files, tutorials, API references, help articles, specifications, proposals, and internal documents.
+- [Blogs and essays](references/formats/blogs.md): developed arguments, personal essays, technical articles, and newsletters.
 
 Messages and ordinary replies need only the language reference. A task spanning multiple forms loads only the forms being written.
 
@@ -45,4 +45,4 @@ Messages and ordinary replies need only the language reference. A task spanning 
 
 For a writing-only request, return the finished prose by default. Add a short note only for an unresolved ambiguity, unsupported material claim, or consequential editorial choice. If asked for critique or alternatives, provide those instead. During implementation, edit the requested product copy or documentation and follow the parent task's delivery requirements. Keep the editorial checklist out of the deliverable.
 
-For a requested voice that these references do not cover, read [research notes](references/community-research.md) and gather suitable samples. Routine writing does not require browsing. Research provenance and limitations are in that reference; load it when reviewing the skill's evidence.
+For a requested voice that these references do not cover, read [research notes](references/research/initial-samples.md) and gather suitable samples. Routine writing does not require browsing. Research provenance and limitations are in that reference; load it when reviewing the skill's evidence.

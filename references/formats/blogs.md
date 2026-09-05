@@ -26,4 +26,4 @@ The observed result carries the story. An initial mistaken assumption, a frustra
 
 Check that the reader can follow how the author gets from the opening to the ending. Every important claim needs its supporting material or an honest qualification. Preserve the writer's stance, including uncertainty and disagreement. The ending should complete the piece's purpose; an essay need not end with advice, and a tutorial need not end with a life lesson.
 
-Older examples and punctuation observations are recorded in [research notes](community-research.md). Read them when calibrating against real writing, not for every blog draft.
+Older examples and punctuation observations are recorded in [research notes](../research/initial-samples.md). Read them when calibrating against real writing, not for every blog draft.
