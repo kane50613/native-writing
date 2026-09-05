@@ -1,6 +1,6 @@
 # English
 
-Read [punctuation by context](punctuation.md) alongside this guide. Consult [sources](sources.md) when checking the evidence.
+Read [punctuation by context](punctuation.md) alongside this guide.
 
 Write in complete, connected thoughts. For ordinary messages and explanations, use the vocabulary the reader already uses, contractions where they fit, and verbs that tell us what happened. An expert audience can handle precise terminology; a new reader may need a short explanation at first use.
 

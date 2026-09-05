@@ -46,4 +46,4 @@ Messages and ordinary replies need only the language reference. A task spanning 
 
 For a writing-only request, return the finished prose by default. Add a short note only for an unresolved ambiguity, unsupported material claim, or consequential editorial choice. If asked for critique or alternatives, provide those instead. During implementation, edit the requested product copy or documentation and follow the parent task's delivery requirements. Keep the editorial checklist out of the deliverable.
 
-For a requested voice that these references do not cover, read [research notes](references/research/initial-samples.md) and gather suitable samples. Routine writing does not require browsing. Research provenance and limitations are in that reference; load it when reviewing the skill's evidence.
+For a requested voice that these references do not cover, follow the [research method in CONTRIBUTING.md](CONTRIBUTING.md#research-a-language-or-regional-variety) to gather suitable samples. Routine writing does not require browsing.

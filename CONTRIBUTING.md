@@ -15,14 +15,11 @@ references/
       terminology.md           Taiwan vocabulary
     <language-tag>/
       punctuation.md           Punctuation by context
-      sources.md               Evidence and limits
   formats/                     Rules shared across languages
     product-copy.md
     documentation.md
     blogs.md
     books.md
-  research/
-    initial-samples.md         Evidence behind the initial guides
 evals/                         Behavioral review cases
 ```
 
@@ -32,7 +29,7 @@ Language-specific rules belong in that language's folder. Advice that applies to
 
 1. Create `references/languages/<language-tag>/guide.md`, using a language tag such as `ja`, `fr`, or `pt-BR`. Include a region when the guidance depends on it.
 2. Describe the audience, sentence construction, tone, and local usage. Include original before-and-after examples for messages, product copy, and longer writing, plus a passage that should stay unchanged. Use the existing guides as starting points.
-3. Add `punctuation.md` for context-dependent punctuation and `sources.md` for supporting evidence. Link both from the guide; read punctuation guidance during writing and sources when checking evidence. Use the research process below.
+3. Add `punctuation.md` for context-dependent punctuation and link it from the guide. Keep a short reference list beside the guidance it supports. Use the research process below.
 4. Add `terminology.md` only if the vocabulary guidance needs a separate file. Link it from the guide and explain when to read it. Keep meanings and exceptions beside each term.
 5. Link the guide from `SKILL.md` and the supported-language list in `README.md`. Add review cases in `evals/<language-tag>.md`, linked from [evals/README.md](evals/README.md).
 
@@ -84,7 +81,7 @@ Compare regional vocabulary in similar contexts, ideally equivalent product surf
 
 ### 4. Record sources so someone else can review them
 
-Use this entry format in the language folder's `sources.md`:
+Include evidence in your pull request using this format:
 
 ```text
 Source: title and URL
@@ -96,7 +93,7 @@ Recommendation: proposed guidance and when it applies
 Limits: counterexamples, missing context, or uncertain provenance
 ```
 
-Summarize in your own words. Include only short, attributed excerpts when needed to explain a finding. The [initial research notes](references/research/initial-samples.md) show completed observations and access limitations.
+Summarize in your own words. Keep durable source links and qualifications beside the relevant guidance. Leave browsing history and access logs in the pull request, not separate skill files.
 
 ### 5. Try the guidance on fresh examples
 

@@ -1,6 +1,6 @@
 # English punctuation by context
 
-Choose punctuation for the surface and the writer's voice. A message bubble, a heading, and a paragraph have different ways of marking an ending. Evidence and house-style boundaries are in [sources.md](sources.md).
+Choose punctuation for the surface and the writer's voice. A message bubble, a heading, and a paragraph have different ways of marking an ending.
 
 ## Choose the setting
 
@@ -43,3 +43,10 @@ US-oriented styles commonly use outer double quotes and place commas and periods
 - UI: heading `Upload complete`; body `We're processing your file.`; button `View uploads`. Read the strings together and follow the product's established punctuation.
 
 Before delivering, check whether a punctuation change altered tone, scope, quotation boundaries, or literal syntax. A natural result need not use fewer marks.
+
+## References
+
+- [Microsoft punctuation](https://learn.microsoft.com/en-us/style-guide/punctuation/periods) and [Oxford punctuation](https://www.ox.ac.uk/about/the-university/brand/style-guide/punctuation): product and editorial house styles, not universal English rules.
+- [Chicago on dialogue ellipses](https://www.chicagomanualofstyle.org/qanda/data/faq/topics/Quotations/faq0077.html): fictional pauses differ from omitted quotation text.
+- [Binghamton text-message research](https://www.binghamton.edu/news/story/873/study-punctuation-in-text-messages-helps-replace-cues-found-in-face-to-face): final periods affect interpretation in studied short exchanges, not every context or language.
+- [Julia Evans, 2021](https://jvns.ca/blog/2021/05/24/blog-about-what-you-ve-struggled-with/): conversational blog prose with complete sentences and expressive punctuation.
