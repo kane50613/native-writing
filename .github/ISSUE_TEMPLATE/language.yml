@@ -1,0 +1,27 @@
+name: Add a language or regional variety
+description: Suggest writing guidance for a language or region.
+body:
+  - type: input
+    id: language
+    attributes:
+      label: Language and region
+      placeholder: Japanese, Brazilian Portuguese, Canadian French
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: What should the guide cover?
+      description: Describe the audience, writing context, and local conventions that matter.
+    validations:
+      required: true
+  - type: textarea
+    id: examples
+    attributes:
+      label: Examples and sources
+      description: Share examples or links to local writing, if you have them. Explain what they illustrate.
+  - type: textarea
+    id: contribution
+    attributes:
+      label: How would you like to help?
+      description: You could draft guidance, share sources, or review examples. Suggestions are welcome even if you cannot contribute.
