@@ -4,11 +4,7 @@ Read this when researching a requested voice or reviewing the evidence behind th
 
 ## When gathering more samples
 
-Choose public writing that matches the audience and purpose. Read enough context to understand what the passage is doing. Compare several unrelated writers and include blogs, documents, or actual product surfaces when those are the target. Prefer original-language articles published before 2022 for baseline prose. Check for later revisions and auto-translated editions: an old publication date alone does not establish the age or authorship of the text now displayed. Use current product pages for current labels and behavior, without treating them as verified human-written samples.
-
-Prefer the original page. If it is unavailable, try the search engine's indexed text, an available public archive, or a public repost. Label each access method and judge only the passage actually visible. After the original and a reasonable public alternative fail, record the gap and use another source. A login wall is not evidence about writing style.
-
-Separate the observation from the editorial choice: describe how a passage communicates, then decide whether that habit fits the requested output. Popularity, platform membership, and slang do not establish quality or human authorship. Borrow general techniques, not personal stories, distinctive phrases, or an invented local identity.
+Follow the [research process in CONTRIBUTING.md](../../CONTRIBUTING.md#research-a-language-or-regional-variety) to choose samples, inspect context, derive scoped guidance, record sources, and test fresh examples.
 
 ## Samples inspected on 2026-09-05
 
