@@ -20,3 +20,11 @@ Judge whether the result communicates the intended meaning in the requested lang
 | Missing substance | 用 native-writing 改寫對外公告：這次更新大幅提升了效能，為使用者帶來前所未有的流暢體驗。 | Adds no measurements or features. Briefly flags missing evidence when needed for the public claim. |
 
 For a new language, include everyday prose, a product string, a developed explanation, and an already-clear passage. A fluent reviewer familiar with the target region should assess naturalness. Keep those judgments separate from mechanically checkable facts.
+
+## Punctuation by language
+
+- [English](en.md)
+- [台灣繁中](zh-TW.md)
+- [简体中文](zh-CN.md)
+
+These fixtures cover message endings, developed prose, fiction, UI strings, and literal syntax. They have not yet been run as a controlled model comparison.
