@@ -13,12 +13,13 @@ references/
     zh-TW/
       guide.md                 Taiwan Mandarin
       terminology.md           Taiwan vocabulary
+    <language-tag>/
+      punctuation.md           Punctuation by context
   formats/                     Rules shared across languages
     product-copy.md
     documentation.md
     blogs.md
-  research/
-    initial-samples.md         Evidence behind the initial guides
+    books.md
 evals/                         Behavioral review cases
 ```
 
@@ -28,7 +29,7 @@ Language-specific rules belong in that language's folder. Advice that applies to
 
 1. Create `references/languages/<language-tag>/guide.md`, using a language tag such as `ja`, `fr`, or `pt-BR`. Include a region when the guidance depends on it.
 2. Describe the audience, sentence construction, tone, and local usage. Include original before-and-after examples for messages, product copy, and longer writing, plus a passage that should stay unchanged. Use the existing guides as starting points.
-3. Put supporting sources in `sources.md` beside the guide, using the research process below.
+3. Add `punctuation.md` for context-dependent punctuation and link it from the guide. Keep a short reference list beside the guidance it supports. Use the research process below.
 4. Add `terminology.md` only if the vocabulary guidance needs a separate file. Link it from the guide and explain when to read it. Keep meanings and exceptions beside each term.
 5. Link the guide from `SKILL.md` and the supported-language list in `README.md`. Add review cases in `evals/<language-tag>.md`, linked from [evals/README.md](evals/README.md).
 
@@ -45,6 +46,7 @@ Search in the target language, using terms local readers would search for. Start
 | Writing task | Useful samples | What to compare |
 | --- | --- | --- |
 | Everyday messages | Local forums, community discussions, public social posts | Requests, disagreement, politeness, emotion |
+| Books and fiction | Published excerpts, publisher samples, public-domain editions | Narration, dialogue, pauses, quotation boundaries; distinguish digital transcription from print typography |
 | Blogs and essays | Personal blogs, independent publications | Openings, paragraph flow, examples, endings |
 | Documentation | Help centers, tutorials, technical references | Prerequisites, steps, conditions, terminology |
 | Website and app copy | Local product pages and visible interface states | Labels, calls to action, errors, recovery instructions |
@@ -60,6 +62,8 @@ Open the original page in a browser when possible. Read the surrounding paragrap
 If access fails, try an available public archive, search-index excerpt, or public repost. Record which you used and analyze only what you could see. After the original and a reasonable public alternative fail, use another source. Avoid spending the research session trying to get through a login wall.
 
 Separate the author's prose from quotations, advertising, code, navigation, translations, and generated summaries. If counting punctuation, record the sections included and exclusions. A semicolon in code says nothing about its use in prose.
+
+For punctuation, compare long posts with their short replies, and published prose with casual messages. Examine periods, commas and enumeration marks, semicolons, colons, questions and exclamations, quotes, parentheses, ellipses, dashes, ranges, and language-specific marks. Record whether a mark ends a message or separates sentences inside it. A missing message-final period does not imply missing sentence boundaries throughout a language. Note what line breaks, message bubbles, captions, or emoji do instead. Keep house-style prescriptions separate from observed habits, and inspect a counterexample before recommending removal or normalization.
 
 ### 3. Turn observations into scoped guidance
 
@@ -77,7 +81,7 @@ Compare regional vocabulary in similar contexts, ideally equivalent product surf
 
 ### 4. Record sources so someone else can review them
 
-Use this entry format in the language folder's `sources.md`:
+Include evidence in your pull request using this format:
 
 ```text
 Source: title and URL
@@ -89,7 +93,7 @@ Recommendation: proposed guidance and when it applies
 Limits: counterexamples, missing context, or uncertain provenance
 ```
 
-Summarize in your own words. Include only short, attributed excerpts when needed to explain a finding. The [initial research notes](references/research/initial-samples.md) show completed observations and access limitations.
+Summarize in your own words. Keep durable source links and qualifications beside the relevant guidance. Leave browsing history and access logs in the pull request, not separate skill files.
 
 ### 5. Try the guidance on fresh examples
 

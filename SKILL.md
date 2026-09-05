@@ -1,6 +1,6 @@
 ---
 name: native-writing
-description: Natural writing for writing or editing website and app copy, blog posts, documentation, and messages in English, 台灣繁中, or 简体中文. Apply to user-facing copy during product implementation, or when asked to humanize text, remove AI voice, or fix translationese.
+description: Write or edit website and app copy, blog posts, books, documentation, and messages in English, 台灣繁中, or 简体中文. Apply to user-facing copy during product implementation, or when asked to humanize text, remove AI voice, or fix translationese.
 ---
 
 # Native writing
@@ -30,6 +30,7 @@ Form, when applicable:
 - [Website and app copy](references/formats/product-copy.md): landing pages, feature and pricing copy, labels, onboarding, errors, and other interface states. Apply while building a product as well as during copy editing.
 - [Documentation](references/formats/documentation.md): README files, tutorials, API references, help articles, specifications, proposals, and internal documents.
 - [Blogs and essays](references/formats/blogs.md): developed arguments, personal essays, technical articles, and newsletters.
+- [Books and manuscripts](references/formats/books.md): fiction, dialogue, and edited nonfiction.
 
 Messages and ordinary replies need only the language reference. A task spanning multiple forms loads only the forms being written.
 
@@ -38,11 +39,11 @@ Messages and ordinary replies need only the language reference. A task spanning 
 - Give the actor and action when they matter. Keep the same name for the same thing. Use an established technical term when it is clearer than a paraphrase; explain it for readers who need that help. Unpack newly coined labels into what actually happens.
 - Let sentence length follow the thought. Keep the connective words that explain cause, sequence, conditions, or disagreement. Use paragraphs for developed ideas, lists for items the reader needs to scan, and headings when they help navigate a longer piece.
 - Preserve the author's warmth, frustration, humor, and degree of politeness. Express those through the situation and the writer's actual stance. Do not invent anecdotes, opinions, emotions, measurements, sources, or experience to make a piece feel personal.
-- Treat punctuation, familiar idioms, repeated words, and groups of three as ordinary tools. Change them when they obstruct this passage. In prose, default to periods between complete thoughts. Use a semicolon when the close parallel relationship or a complex list is easier to read that way; preserve intentional usage in the writer's voice. Code and literal quotations keep their punctuation. Style editing is not an AI-authorship test.
+- Treat punctuation, familiar idioms, repeated words, and groups of three as ordinary tools. Change them when they obstruct this passage. Follow the language guide’s punctuation reference for the actual surface: a short message, developed prose, a manuscript, and an interface label need different treatment. Preserve useful sentence boundaries, relationships, and intentional rhythm. Code and literal quotations keep their punctuation. Style editing is not an AI-authorship test.
 - Replace vague praise with its supported substance. If the input gives no substance, retain only what it actually establishes and flag a material gap briefly. Do not turn an unspecified improvement into an invented feature or a tentative result into a promise. Fact-checking, when requested, is a separate operation from preserving meaning during an edit.
 
 ## Delivery
 
 For a writing-only request, return the finished prose by default. Add a short note only for an unresolved ambiguity, unsupported material claim, or consequential editorial choice. If asked for critique or alternatives, provide those instead. During implementation, edit the requested product copy or documentation and follow the parent task's delivery requirements. Keep the editorial checklist out of the deliverable.
 
-For a requested voice that these references do not cover, read [research notes](references/research/initial-samples.md) and gather suitable samples. Routine writing does not require browsing. Research provenance and limitations are in that reference; load it when reviewing the skill's evidence.
+For a requested voice that these references do not cover, follow the [research method in CONTRIBUTING.md](CONTRIBUTING.md#research-a-language-or-regional-variety) to gather suitable samples. Routine writing does not require browsing.
