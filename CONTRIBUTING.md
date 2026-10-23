@@ -13,6 +13,7 @@ references/
     zh-TW/
       guide.md                 Taiwan Mandarin
       terminology.md           Taiwan vocabulary
+      composition.md           Taiwan paragraphs, sentences, and lists
     <language-tag>/
       punctuation.md           Punctuation by context
   composition/                 Paragraphs and lists, shared across forms

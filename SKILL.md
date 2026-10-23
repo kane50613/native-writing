@@ -31,7 +31,7 @@ Each output language has one guide:
 | Language | Guide |
 | --- | --- |
 | English | [references/languages/en/guide.md](references/languages/en/guide.md) |
-| 台灣繁中 | [references/languages/zh-TW/guide.md](references/languages/zh-TW/guide.md), plus the required [references/languages/zh-TW/terminology.md](references/languages/zh-TW/terminology.md) |
+| 台灣繁中 | [references/languages/zh-TW/guide.md](references/languages/zh-TW/guide.md), plus the required [references/languages/zh-TW/terminology.md](references/languages/zh-TW/terminology.md) and [references/languages/zh-TW/composition.md](references/languages/zh-TW/composition.md) |
 | 简体中文 | [references/languages/zh-CN/guide.md](references/languages/zh-CN/guide.md) |
 
 Each form has one reference:
