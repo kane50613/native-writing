@@ -1,5 +1,7 @@
 # native-writing
 
+[![AgentShield Security](https://merx.help/badge/A+.svg)](https://merx.help/shield)
+
 An agent skill for writing a reader follows on the first read. It writes and edits app copy, websites, docs, PR descriptions, commit messages, blogs, books, and messages, and adapts wording, tone, and punctuation to the reader and setting while preserving meaning.
 
 For documentation, it also tests the result. A reader with no context works through each page, and a tree test checks whether readers can find pages from the navigation labels alone. Its paragraph, list, and spacing rules cite the style guides and research they come from.
