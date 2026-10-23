@@ -1,6 +1,6 @@
 # native-writing
 
-An agent skill for writing and editing app copy, websites, docs, blogs, books, and messages. It adapts wording, tone, and punctuation to the reader and setting while preserving meaning.
+An agent skill for writing and editing app copy, websites, docs, PR descriptions, blogs, books, and messages. It adapts wording, tone, and punctuation to the reader and setting while preserving meaning. For documentation, it also checks pages and site navigation with a reader who has no context.
 
 Supports [English](references/languages/en/guide.md), [台灣繁中](references/languages/zh-TW/guide.md), and [简体中文](references/languages/zh-CN/guide.md).
 

@@ -5,7 +5,7 @@ We welcome contributions for more languages and regional varieties. Add guidance
 ## Where to edit
 
 ```text
-SKILL.md                       Shared process and links to language guides
+SKILL.md                       Hard rules, branches, steps, and links to references
 references/
   languages/
     en/guide.md                English
@@ -15,15 +15,23 @@ references/
       terminology.md           Taiwan vocabulary
     <language-tag>/
       punctuation.md           Punctuation by context
-  formats/                     Rules shared across languages
+  composition/                 Paragraphs and lists, shared across forms
+    paragraphs.md
+    lists.md
+  formats/                     Rules for one form, shared across languages
     product-copy.md
     documentation.md
+    docs-structure.md
+    change-notes.md
     blogs.md
     books.md
+  review/                      Checks run with a reader who has no context
+    cold-reader.md
+    tree-test.md
 evals/                         Behavioral review cases
 ```
 
-Language-specific rules belong in that language's folder. Advice that applies to every language belongs in `SKILL.md`; advice about a particular writing format belongs in `references/formats/`.
+Language-specific rules belong in that language's folder. Process that every branch shares belongs in `SKILL.md`. Advice about building paragraphs and lists belongs in `references/composition/`, and advice about one writing form belongs in `references/formats/`. A new reference needs a link from the step in `SKILL.md` that reads it, so the agent knows when to load it.
 
 ## Add a language
 

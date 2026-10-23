@@ -15,6 +15,19 @@ Determine what this document helps the reader do: learn a concept, complete a ta
 
 Use only the parts the task needs. A how-to should not turn into a history lesson; a design proposal needs enough reasoning for a reviewer to assess it.
 
+## Make the page work on its own
+
+Readers arrive at any page from search or a link, not only from the start of the docs. Each page should work as the reader's first page.
+
+- **Title the page for the reader's task or the thing they look up.** A reader predicts what a link holds from its label. "Load fonts" predicts its content, while "Helpers" makes the reader guess.
+- **Say in the opening what the page helps the reader do.** Link a prerequisite where the page first depends on it.
+- **Put the common path first.** Move details most readers do not need, such as retry timings or edge cases, into a table, a later section, or a collapsible deep dive. Cover the failure path too, since readers who reach a page are often troubleshooting.
+- **Show usage with a working code example** before explaining it in prose. Explain only the parts the code cannot show.
+- **End a tutorial or how-to with the next step.** Link the page a reader usually needs after this one.
+- **Spell out an acronym at its first use**, and link the project's glossary for terms that recur across pages.
+
+Give each topic one page. Two pages with the same purpose split the reader's attention and drift apart over time. Link to the page that owns a topic instead of repeating its content. Generate reference material from its source of truth, such as the code or an API schema, when the project can. For the structure of the whole site, use [docs structure](docs-structure.md).
+
 ## Write for someone who was not in the conversation
 
 Introduce concepts before depending on them. Use consistent terms and explicit references in place of private shorthand. Examples should establish a case, show the operation or reasoning, and show the result. Distinguish sample values from defaults and requirements from suggestions.
@@ -48,3 +61,11 @@ Editing judgment: keep all three statements. The input is already clear; convert
 ## Completion check
 
 Read as the intended newcomer or reviewer. Check that every needed prerequisite is stated, steps can be followed in order, names match the system, and success or failure is recognizable. Check that a decision document distinguishes evidence, recommendation, and unresolved choices. Preserve the agreed scope and all material exceptions. Use descriptive headings and links to help readers find information again.
+
+Your own read cannot catch a gap you fill from memory. For a page readers will act on, finish with the [cold reader](../review/cold-reader.md).
+
+## Sources
+
+- Mark Baker, [*Every Page is Page One*](https://xmlpress.net/publications/eppo/) (XML Press, 2013): readers land on individual pages from search, so each page must stand alone and link its context.
+- Nielsen Norman Group, [Information Scent](https://www.nngroup.com/articles/information-scent/): labels let readers predict what a link leads to.
+- Fuma Nama, [How to write good docs](https://www.fuma-nama.dev/blog/good-docs): one page per topic, no duplicated pages, collapsible deep dives, coverage beyond the happy path, code examples over prose, glossaries, and generated references.
