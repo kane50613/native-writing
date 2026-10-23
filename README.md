@@ -1,6 +1,8 @@
 # native-writing
 
-An agent skill for writing and editing app copy, websites, docs, PR descriptions, blogs, books, and messages. It adapts wording, tone, and punctuation to the reader and setting while preserving meaning. For documentation, it also checks pages and site navigation with a reader who has no context.
+An agent skill for writing a reader follows on the first read. It writes and edits app copy, websites, docs, PR descriptions, commit messages, blogs, books, and messages, and adapts wording, tone, and punctuation to the reader and setting while preserving meaning.
+
+For documentation, it also tests the result. A reader with no context works through each page, and a tree test checks whether readers can find pages from the navigation labels alone. Its paragraph, list, and spacing rules cite the style guides and research they come from.
 
 Supports [English](references/languages/en/guide.md), [台灣繁中](references/languages/zh-TW/guide.md), and [简体中文](references/languages/zh-CN/guide.md).
 
@@ -30,6 +32,7 @@ Use native-writing to edit this README for developers trying the library for the
 | --- | --- | --- |
 | English docs | It is necessary to restart the app in order for the changes to take effect. | Restart the app to apply the changes. |
 | 台灣 app | 默認支持上傳視頻，點擊鏈接即可查看文件。 | 預設支援上傳影片，點選連結即可查看檔案。 |
+| 台灣文件 | 此外，您也可以設定逾時。因此，請求會在三秒後停止。 | 也可以設定逾時，請求就會在三秒後停止。 |
 | 简体博客 | 通过引入缓存机制，实现了对重复图片解码操作的有效规避，但缓存失效后仍需重新解码。 | 加上缓存后，同一张图片就不用重复解码。缓存失效后，仍需重新解码。 |
 
 Clear text can stay unchanged. A casual reply like `到了，門口等你` needs no final period. A website notice like `週六暫停服務。週日恢復營業。` keeps its sentence boundaries.
