@@ -1,6 +1,6 @@
 # Paragraphs
 
-Read this before drafting the first paragraph of any prose longer than a message. It covers where a paragraph starts and ends and how its sentences connect. The guidance comes from English-language style guides and research. For Chinese, the language guide's paragraph advice takes precedence where the two differ.
+Read this before drafting the first paragraph of any prose longer than a message. It covers where a paragraph starts and ends and how its sentences connect. The guidance comes from English-language style guides and research. For 台灣繁中, [the zh-TW composition reference](../languages/zh-TW/composition.md) takes precedence where the two differ.
 
 ## One topic, stated first
 

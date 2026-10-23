@@ -1,6 +1,6 @@
 # Lists or prose
 
-Read this before drafting, and again before turning prose into a list or a list into prose. Major style guides recommend lists because readers scan web pages. Critics of bullet-heavy writing point out that a list hides how its items relate. Both are right about different content, so decide by the relationship between the items.
+Read this before drafting, and again before turning prose into a list or a list into prose. Major style guides recommend lists because readers scan web pages. Critics of bullet-heavy writing point out that a list hides how its items relate. Both are right about different content, so decide by the relationship between the items. For 台灣繁中, also read [the zh-TW composition reference](../languages/zh-TW/composition.md), which covers enumeration commas and one-item-per-line notices.
 
 ## Decide by the relationship
 
