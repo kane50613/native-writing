@@ -33,7 +33,7 @@ Open with `Fixes #<issue>` only when the work came from an issue, so the merge c
 
 **Why** states the defect that existed or the need the change meets. **What** states what the code does now, not which files changed. Write two sentences in each section, each under about 25 words. A diff over about 500 lines earns a third. Keep one paragraph under each heading. When the change has several independent parts, give each part one bullet of one sentence. More than about four parts suggests the PR should be split.
 
-Add at most one more fact, and only one that changes how someone reviews. A non-obvious invariant, a deliberate omission, or a risk to look at qualifies.
+Add at most one more fact, and only one that changes how someone reviews. A non-obvious invariant, a deliberate omission, or a risk to look at qualifies. Write it as one more sentence at the end of the section it belongs to, so each heading still has one paragraph.
 
 Write each paragraph as one line. GitHub renders every line break in a PR body, so hard-wrapped text shows up as ragged short lines.
 
