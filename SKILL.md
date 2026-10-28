@@ -1,6 +1,6 @@
 ---
 name: native-writing
-description: Write, edit, or review prose in English, 台灣繁中, or 简体中文 so the reader follows it on the first read. Covers website and app copy, documentation pages and docs-site structure, PR bodies, commit messages and changesets, blog posts, books, and messages. Use when asked to write or edit copy, humanize text, remove AI voice, fix translationese, or organize documentation. Other skills use it for every piece of prose they author.
+description: Write, edit, or review prose in English, 台灣繁中, 简体中文, or 日本語 so the reader follows it on the first read. Covers website and app copy, documentation pages and docs-site structure, PR bodies, commit messages and changesets, blog posts, books, and messages. Use when asked to write or edit copy, humanize text, remove AI voice, fix translationese, or organize documentation. Other skills use it for every piece of prose they author.
 ---
 
 # Native writing
@@ -33,6 +33,7 @@ Each output language has one guide:
 | English | [references/languages/en/guide.md](references/languages/en/guide.md) |
 | 台灣繁中 | [references/languages/zh-TW/guide.md](references/languages/zh-TW/guide.md), plus the required [references/languages/zh-TW/terminology.md](references/languages/zh-TW/terminology.md) and [references/languages/zh-TW/composition.md](references/languages/zh-TW/composition.md) |
 | 简体中文 | [references/languages/zh-CN/guide.md](references/languages/zh-CN/guide.md) |
+| 日本語 | [references/languages/ja/guide.md](references/languages/ja/guide.md) |
 
 Each form has one reference:
 
