@@ -4,7 +4,7 @@ An agent skill for writing a reader follows on the first read. It writes and edi
 
 For documentation, it also tests the result. A reader with no context works through each page, and a tree test checks whether readers can find pages from the navigation labels alone. Its paragraph, list, and spacing rules cite the style guides and research they come from.
 
-Supports [English](references/languages/en/guide.md), [台灣繁中](references/languages/zh-TW/guide.md), and [简体中文](references/languages/zh-CN/guide.md).
+Supports [English](references/languages/en/guide.md), [台灣繁中](references/languages/zh-TW/guide.md), [简体中文](references/languages/zh-CN/guide.md), and [日本語](references/languages/ja/guide.md).
 
 ## Install
 

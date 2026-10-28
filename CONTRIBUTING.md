@@ -9,6 +9,7 @@ SKILL.md                       Hard rules, branches, steps, and links to referen
 references/
   languages/
     en/guide.md                English
+    ja/guide.md                Japanese
     zh-CN/guide.md             Mainland Simplified Chinese
     zh-TW/
       guide.md                 Taiwan Mandarin

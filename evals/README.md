@@ -30,5 +30,6 @@ For a new language, include everyday prose, a product string, a developed explan
 - [English](en.md)
 - [台灣繁中](zh-TW.md)
 - [简体中文](zh-CN.md)
+- [日本語](ja.md)
 
 These fixtures cover message endings, developed prose, fiction, UI strings, and literal syntax. They have not yet been run as a controlled model comparison.
