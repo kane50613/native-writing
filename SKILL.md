@@ -1,6 +1,6 @@
 ---
 name: native-writing
-description: Write, edit, or review prose in English, 台灣繁中, 简体中文, or 日本語 so the reader follows it on the first read. Covers website and app copy, documentation pages and docs-site structure, PR bodies, commit messages and changesets, blog posts, books, and messages. Use when asked to write or edit copy, humanize text, remove AI voice, fix translationese, or organize documentation. Other skills use it for every piece of prose they author.
+description: Write, edit, or review prose in English, 台灣繁中, 简体中文, or 日本語 so the reader follows it on the first read. Covers website and app copy, documentation pages and docs-site structure, PR bodies, commit messages and changesets, blog posts, slide decks, books, and messages. Use when asked to write or edit copy, humanize text, remove AI voice, fix translationese, or organize documentation. Other skills use it for every piece of prose they author.
 ---
 
 # Native writing
@@ -43,6 +43,7 @@ Each form has one reference:
 | Documentation pages | [references/formats/documentation.md](references/formats/documentation.md) |
 | PR bodies, commit messages, changesets, changelogs, release notes | [references/formats/change-notes.md](references/formats/change-notes.md) |
 | Blogs, essays, technical articles, newsletters | [references/formats/blogs.md](references/formats/blogs.md) |
+| Slides and presentation decks | [references/formats/slides.md](references/formats/slides.md) |
 | Books and manuscripts | [references/formats/books.md](references/formats/books.md) |
 
 The composition files are [references/composition/paragraphs.md](references/composition/paragraphs.md) and [references/composition/lists.md](references/composition/lists.md). The review procedures are [references/review/cold-reader.md](references/review/cold-reader.md) and [references/review/tree-test.md](references/review/tree-test.md). The site procedure is [references/formats/docs-structure.md](references/formats/docs-structure.md).
