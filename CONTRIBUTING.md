@@ -26,6 +26,7 @@ references/
     docs-structure.md
     change-notes.md
     blogs.md
+    slides.md
     books.md
   review/                      Checks run with a reader who has no context
     cold-reader.md
